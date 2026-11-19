@@ -4,9 +4,9 @@
 [![rank](https://make.fun/badge/bring-the-humans-02/georgeonweb3/makefun-bring-the-humans-02/rank.svg)](https://make.fun/bounty/bring-the-humans-02/leaderboard)
 [![reward](https://make.fun/badge/bring-the-humans-02/georgeonweb3/makefun-bring-the-humans-02/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-> **Join from here:** use my link — [https://make.fun/r/kq1kj76a](https://make.fun/r/kq1kj76a)
+> **Start here:** join through my link — [https://make.fun/r/kq1kj76a](https://make.fun/r/kq1kj76a)
 >
-> The code behind that link is `kq1kj76a`. You can also open it as `/r/kq1kj76a` on make.fun, or stick `?ref=kq1kj76a` on the end of any make.fun page — `https://make.fun?ref=kq1kj76a` works the same way.
+> My referral code is `kq1kj76a`. It also works as `/r/kq1kj76a` on make.fun, or as `?ref=kq1kj76a` on any make.fun page, for example `https://make.fun?ref=kq1kj76a`.
 
 I am George Agbe, a freelance Web3 developer in Lagos, Nigeria. I build on Base and Robinhood Chain, and I enter make.fun bounties with an AI agent doing the building while I steer. This guide is the loop I actually run — written from entries I really submitted, including the ones that lost, because the losses are where the rules that matter live.
 
@@ -84,7 +84,7 @@ The front page sorts bounties into Trending, New and Ending soon, across categor
 
 ## Step 3: get the kit, then read the rules properly
 
-Each bounty comes with a kit — rules, data, a starter entry where there is one, and the `makefun` command line. Grab it from the entry form on the bounty page, or from a terminal:
+Every bounty ships a kit: its rules, its data, a starter entry where one exists, and the `makefun` command line. Get it from the entry form on the bounty page, or in a terminal:
 
 ```sh
 curl -sSL "https://make.fun/c/<bounty-slug>/kit" | tar xz
@@ -205,43 +205,43 @@ If this guide helped you, signing up through [my link](https://make.fun/r/kq1kj7
 ## FAQ
 
 <details>
-<summary><strong>Is entering free?</strong></summary>
+<summary><strong>Does it cost anything to enter?</strong></summary>
 
 Most bounties are free to enter, and no payment is needed to enter or to win them. The model calls your agent makes while it builds are on your own account.
 </details>
 
 <details>
-<summary><strong>Can I trust make.fun?</strong></summary>
+<summary><strong>Can I trust make.fun with my work?</strong></summary>
 
 Yes — as far as any bounty platform can be trusted, and the structure is what does the trusting for you. Every bounty opens with its whole reward locked in an on-chain escrow on Solana, so the prize exists before anyone builds. Prizes pay in USDC on Solana, never by bank wire, and a prize nobody wins or claims goes back to make.fun's reward wallet. That is the check that matters: the money is locked first, and the claim runs through an automatic sanctions screen.
 </details>
 
 <details>
-<summary><strong>Do I need to know how to code?</strong></summary>
+<summary><strong>Do I need coding experience?</strong></summary>
 
 It helps, but your agent writes the code and you steer it: you pick the bounty, run the local grade where there is one, read what the checks say, and decide when to submit.
 </details>
 
 <details>
-<summary><strong>Which AI agents work here?</strong></summary>
+<summary><strong>Which AI agents can I use?</strong></summary>
 
 Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, Qwen Code, opencode, Cline, Aider and dozens more are found by the kit on its own. Other agents can hand over their session file with `bundle --session <file>`.
 </details>
 
 <details>
-<summary><strong>Who reads my transcripts, and why?</strong></summary>
+<summary><strong>Who reads my transcripts, and what do they do with them?</strong></summary>
 
 make.fun reads them to check that your own agent built the entry. The kit strips credentials, email addresses and home paths before upload, and `bundle --redact "<text>"` removes any other personal detail you name.
 </details>
 
 <details>
-<summary><strong>Can a team enter together?</strong></summary>
+<summary><strong>Can I enter as a team?</strong></summary>
 
 One account per person. A team enters under one account and splits any prize itself.
 </details>
 
 <details>
-<summary><strong>What happens if my entry is rejected?</strong></summary>
+<summary><strong>What if my entry is rejected?</strong></summary>
 
 Its status names every failed check and its fix. Fix them and submit again before the deadline — that is what the resubmission limit is for.
 </details>
@@ -256,4 +256,4 @@ Its status names every failed check and its fix. Fix them and submit again befor
 
 ---
 
-<sub>Put together by George Agbe (@georgeonweb3) with his AI agent, from entries really built and sent in: Prism Break, accepted Nov 17 in best-game-01, and the token-launch radar, built Nov 17 for token-radar-01. If this guide got you going, join through my referral link: [https://make.fun/r/kq1kj76a](https://make.fun/r/kq1kj76a) · code `kq1kj76a`</sub>
+<sub>Written by George Agbe (@georgeonweb3) with his AI agent, from entries actually built and submitted: Prism Break, accepted Nov 17 in best-game-01, and the token-launch radar, built Nov 17 for token-radar-01. If this guide got you started, sign up with my referral link: [https://make.fun/r/kq1kj76a](https://make.fun/r/kq1kj76a) · code `kq1kj76a`</sub>
